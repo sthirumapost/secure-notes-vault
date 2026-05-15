@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+secure_notes.db
+*.db
+.DS_Store
