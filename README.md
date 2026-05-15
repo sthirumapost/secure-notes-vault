@@ -1,5 +1,4 @@
-# Secure Notes Vault API
-# Kumar Sankaralingam
+# Secure Notes Vault API by Kumar Sankaralingam
 
 A small backend service for a take-home challenge that demonstrates REST API design, token-based authentication, access control, persistence, testing, and documentation.
 
@@ -128,7 +127,7 @@ curl -X GET http://127.0.0.1:8000/notes \
 - Add Alembic for schema migrations
 - Add pagination and note metadata
 - Add rate limiting and audit logs
-- Switch to PostgreSQL for production
+- Switch to PostgreSQL for production to support 10000s of concurrent users
 - Add structured logging and observability
 
 Tested locally with Python 3.14; some remaining deprecation warnings come from upstream framework dependencies and do not affect functional correctness.
